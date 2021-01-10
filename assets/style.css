@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(mainblow.JPG);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    /* background-size: 1400px 800px; */
+}
+header{
+    display: inline-block;
+}
+.left-blow{
+    display:inline-block;
+    position: absolute;
+    left: 110px;
+    top: 50px;
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+    position: absolute;
+    right: 105px;
+    top: 80px;
+}
+.nav-set{
+    color:black;
+    font-size: 22px;
+}
+.nav-set:hover{
+    background-color: black;
+    color:white;    
+}
+.butonn{
+    font-size: 20px;
+
+
+}
+button{
+    border: none;
+    position: absolute;
+    bottom: 150px;
+    left: 640px;
+    color: #f0cdac;
+    background-color: black;
+    cursor: pointer;
+    width: 170px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.catalog-ul{
+    display: flex;
+    justify-content: space-between;
+}
+/* .catalog-ul li{
+    width: 22%;
+
+} */
+.product-image{
+    display: flex;
+}

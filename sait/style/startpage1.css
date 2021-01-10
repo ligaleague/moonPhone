@@ -1,7 +1,8 @@
 .catalog-ul{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
+    justify-content: center;
 }
 .catalog-ul li{
     margin-top: 30px;
@@ -12,10 +13,11 @@
     color:grey;
 }
 .product-holder{
-    width: 100%;
-    border: 1px solid black;
+    width: 70%;
+    border: 1px white;
     box-sizing: border-box;
     padding: 10px;
+    
 }
 .product-holder .product-name{
     width: 100%;
@@ -65,5 +67,10 @@ background-color: black ;
 } */
 main{
     background: #0a2a43;
+    
 }
-
+.catalog-holder{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

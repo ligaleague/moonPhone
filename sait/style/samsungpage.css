@@ -2,10 +2,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 50%;
+    background: #0A2030;
+
 }
 .catalog-ul li{
     margin-top: 30px;
-    width: 22%;
+    width: 30%;
 
 }
 .product-name{
@@ -13,7 +16,7 @@
 }
 .product-holder{
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -58,6 +61,13 @@ background-color: black ;
 main{
     background: #0a2a43;
 }
-
+.borderbox{
+    display: flex;
+    align-items: center;
+}
+.catalog-holder{
+    display: flex;
+    justify-content: center;
+}
 /* footer */
 
