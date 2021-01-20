@@ -74,3 +74,10 @@ main{
     justify-content: center;
     width: 100%;
 }
+
+@media screen and (max-width: 420px){
+    .product-holder .product-name{
+        font-size: 20px;
+        text-align: left;
+    }
+}

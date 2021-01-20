@@ -75,5 +75,29 @@ main{
     font-weight: normal;
     color: rgba(114, 215, 246, 0.952);
 }
-/* footer */
-
+@media screen and (max-width: 950px){
+    .catalog-ul li{
+        width: 45%;
+    
+    }
+}
+@media screen and (max-width: 1320px){
+    .product-holder .product-name{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1090px){
+    .product-holder .product-name{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 800px){
+    .catalog-ul{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 420px){
+    .catalog-ul{
+        width: 80%;
+    }
+}
