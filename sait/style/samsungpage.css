@@ -98,6 +98,6 @@ main{
 }
 @media screen and (max-width: 420px){
     .catalog-ul{
-        width: 80%;
+        width: 90%;
     }
 }

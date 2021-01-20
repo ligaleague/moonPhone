@@ -58,9 +58,14 @@ section img{
 #road{
     z-index:2;
 }
-@media screen and (max-width: 420px){
+@media screen and (max-width: 550px){
     #text{
         font-size: 6em;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 872px){
+    #text{
         text-align: center;
     }
 }
