@@ -75,6 +75,31 @@ main{
     font-weight: normal;
     color: rgba(114, 215, 246, 0.952);
 }
+/* .info{
+    color: rgba(114, 215, 246, 0.952);
+    margin-left:15px;
+    font-size: 14px;
+    background: none;
+} */
+.product-colors button{
+    display: block;
+  background-color: inherit;
+  color: rgba(114, 215, 246, 0.952);
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    display: none;
+    color: white;
+  }
 @media screen and (max-width: 950px){
     .catalog-ul li{
         width: 45%;
